@@ -1,5 +1,5 @@
 import { Link, Outlet } from "react-router";
-import Logo from '../../assets/crown.svg';
+import Logo from '../../assets/crown.svg?react';
 
 
 const Navigation = () => {
