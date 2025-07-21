@@ -1,6 +1,8 @@
 import { Link, Outlet } from "react-router";
 import Logo from '../../assets/crown.svg?react';
 
+import './navigation.styles.scss'
+
 
 const Navigation = () => {
   return (
@@ -9,7 +11,7 @@ const Navigation = () => {
         <Link className="logo-container" to="/">
           <Logo /> 
         </Link>
-        <div className="nav-link-container">
+        <div className="nav-links-container">
           <Link className="nav-link" to="/shop">
             Shop
           </Link>
